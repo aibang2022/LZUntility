@@ -1,9 +1,9 @@
-# Untility
+# ABUntility
 
-[![CI Status](https://img.shields.io/travis/刘钊/Untility.svg?style=flat)](https://travis-ci.org/刘钊/Untility)
-[![Version](https://img.shields.io/cocoapods/v/Untility.svg?style=flat)](https://cocoapods.org/pods/Untility)
-[![License](https://img.shields.io/cocoapods/l/Untility.svg?style=flat)](https://cocoapods.org/pods/Untility)
-[![Platform](https://img.shields.io/cocoapods/p/Untility.svg?style=flat)](https://cocoapods.org/pods/Untility)
+[![CI Status](https://img.shields.io/travis/aibang@163.com/ABUntility.svg?style=flat)](https://travis-ci.org/aibang@163.com/ABUntility)
+[![Version](https://img.shields.io/cocoapods/v/ABUntility.svg?style=flat)](https://cocoapods.org/pods/ABUntility)
+[![License](https://img.shields.io/cocoapods/l/ABUntility.svg?style=flat)](https://cocoapods.org/pods/ABUntility)
+[![Platform](https://img.shields.io/cocoapods/p/ABUntility.svg?style=flat)](https://cocoapods.org/pods/ABUntility)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Untility is available through [CocoaPods](https://cocoapods.org). To install
+ABUntility is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Untility'
+pod 'ABUntility'
 ```
 
 ## Author
 
-刘钊, zhao.liu@zhaopin.com.cn
+aibang@163.com, zhao.liu@zhaopin.com.cn
 
 ## License
 
-Untility is available under the MIT license. See the LICENSE file for more info.
+ABUntility is available under the MIT license. See the LICENSE file for more info.

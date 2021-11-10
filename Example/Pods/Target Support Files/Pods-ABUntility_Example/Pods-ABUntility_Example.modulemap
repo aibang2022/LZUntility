@@ -1,0 +1,6 @@
+framework module Pods_ABUntility_Example {
+  umbrella header "Pods-ABUntility_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
