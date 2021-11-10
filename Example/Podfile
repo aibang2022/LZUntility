@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Untility_Example' do
+  pod 'Untility', :path => '../'
+
+  target 'Untility_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

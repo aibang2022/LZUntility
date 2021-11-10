@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0205F29D304BD267260AA88F83CA017E /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF2E43CA2261FFFA5F06F8BB7B5E76 /* UIColor+Extensions.m */; };
+		1964FC41428E7667D0E327F7EFB1BF30 /* Pods-Untility_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE25B4AFD981C7B9786F216C567EBEF /* Pods-Untility_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BE70CE90B2AD3CC1ECD7FEF7726D269 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E351935E074305B5FAEDF625AAA01805 /* MBProgressHUD.m */; };
+		1C5E8E129193B58F4E2BA755AECA727C /* TRPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D5D589F2602FE98AF0B311B8359D71 /* TRPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E92E00363456760F1282475E8DC9BE /* Untility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A80E17C2E71A79EC22A1E6D83EFE2D /* Untility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2568D016F0E270A9EDE2EE9FDE249FB0 /* UISwitch+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = BA19AE365F3A8058E4630A3717F3A0E8 /* UISwitch+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3384A3ACA9200A26F273A74BD0CE9679 /* Untility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7AA30531C5F8B2EDBBB9E898D29010 /* Untility-dummy.m */; };
+		36B798E8A47AA410FD9FF4C0B5673855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5992D45E3F99DFA17D41C60CDBAA6FD9 /* UIDevice+LZCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E502CC38DA2B0387683E9783CDDF3363 /* UIDevice+LZCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D1A504B3EE38C03E3CEA2B16EEA0EAA /* Pods-Untility_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0820496372E69CFF1A905A59B63FB0FA /* Pods-Untility_Tests-dummy.m */; };
+		64D7CC11821952DC1D265000716F58E1 /* UIDevice+LZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0300FB73D2D3B5FF5778BEFA829DC /* UIDevice+LZCategory.m */; };
+		651A994B51D0DADC1D968A43DE916650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6540A1F2B1C17FB3B7CC70A8AD4D09DF /* MZTimerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 631DEDA39D7A517E70ABC3893160D614 /* MZTimerLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AAD865ADEB44E246297AB081100F4B8 /* UIImage+KTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 499028AF8D9763F81288D832DC68268A /* UIImage+KTCategory.m */; };
+		6FBA8694BE1F720DDF3012D032A640D1 /* UISegmentedControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E67343A8BE4ECE145DBD2D4B45E4F5 /* UISegmentedControl+Block.m */; };
+		712DCC2CA0DB7B997265273D921732F1 /* ABToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0F891BF4762ECDD7738B9BE81F34DE /* ABToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75CCB78439F9A16B00014C1B44A558EA /* UIColor+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A23B8F8E523C79D77FA0A9582C92106D /* UIColor+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E9E9E9EC85EAD4B7C092DA5E58EAD9 /* UIButton+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1D7CEEABD07102B56DE2832291E225 /* UIButton+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932072B44430259406F4DB7C52F7DB9E /* UINavigationController+Revolve.h in Headers */ = {isa = PBXBuildFile; fileRef = AF063CFFA0AFD39661497BBDA098EA1A /* UINavigationController+Revolve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3F8E7683173A97C4B035B7ACE42A2A /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF861CBD837DD97C3EA2D70B541B4 /* UIButton+Block.m */; };
+		A10A33A6986DD8FCEE569BEB644DAFBB /* UINavigationController+Revolve.m in Sources */ = {isa = PBXBuildFile; fileRef = BB626A2915FD240C02BB54EE8DD8A35C /* UINavigationController+Revolve.m */; };
+		AEC875D5069820217C6FB2DCFC861C09 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE05F9D1BDA5E9412EF5B6D1F1A60C7 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF385188C8ED347A3B0331DBDEEE3809 /* TRPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1571017F7552172059B1D16DA92F66 /* TRPreferences.m */; };
+		B698DC45921A28E9D35AC930312B947C /* UISegmentedControl+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = B6763B807C86B3700D06D8A54E6E752D /* UISegmentedControl+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98A20C631E83F03DCE6CCDF5AFF42DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B9D866C541031777BAB285ED702D19D0 /* Pods-Untility_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 877DC7F2AEC35BF9D7DB61679E2FA592 /* Pods-Untility_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA87C88C00133CBC439ED63F9D00BFB0 /* Pods-Untility_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9219AE111B032724D60819388AE3D9D /* Pods-Untility_Example-dummy.m */; };
+		BADDCC29127E80B157813AA798CC87A0 /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = AE80E7968F9ED59D0263E7F12C12FFB4 /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DA7B60AAFC4307283A050866B79560 /* ABToast.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF9C8AB6304F9EE3970762984BD532 /* ABToast.m */; };
+		C8227D5DD82711C4F424EDBB2A0A5297 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E091F9C01807AFD14D4D9094D09EB7 /* MZTimerLabel.m */; };
+		D227041C3B2F84BC1E07C3CB2DC4D7D8 /* UISwitch+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = D09455E52A844761BD51C66BFAA4242D /* UISwitch+Block.m */; };
+		F84C4CB9FDA9122B8A30044534967847 /* UIImage+KTCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 191EEFAEABC6E5807D790F100591A5E3 /* UIImage+KTCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A61F8A30D5572EBF0AE39189E01C98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F4027D2E3CA21CA3638C94F91F6F21;
+			remoteInfo = "Pods-Untility_Example";
+		};
+		B9D9CAB94EBA65A799409591A4A21F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F07D03508B33A6DDE6DD7D79F4EFFD;
+			remoteInfo = Untility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001D70CC5871FD13961E506D5FC04965 /* Pods-Untility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Untility_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0820496372E69CFF1A905A59B63FB0FA /* Pods-Untility_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Untility_Tests-dummy.m"; sourceTree = "<group>"; };
+		0B7AA30531C5F8B2EDBBB9E898D29010 /* Untility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Untility-dummy.m"; sourceTree = "<group>"; };
+		0C0F891BF4762ECDD7738B9BE81F34DE /* ABToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABToast.h; path = Untility/Classes/ABToast.h; sourceTree = "<group>"; };
+		191EEFAEABC6E5807D790F100591A5E3 /* UIImage+KTCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KTCategory.h"; path = "Untility/Classes/UIImage+KTCategory.h"; sourceTree = "<group>"; };
+		1ACF2E43CA2261FFFA5F06F8BB7B5E76 /* UIColor+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extensions.m"; path = "Untility/Classes/UIColor+Extensions.m"; sourceTree = "<group>"; };
+		1F8B27C20AC9CDD4D88A75717EF77C84 /* Pods-Untility_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Untility_Tests-Info.plist"; sourceTree = "<group>"; };
+		434163FBADCFA94D0D5D02F24446F34E /* Untility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Untility.modulemap; sourceTree = "<group>"; };
+		499028AF8D9763F81288D832DC68268A /* UIImage+KTCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KTCategory.m"; path = "Untility/Classes/UIImage+KTCategory.m"; sourceTree = "<group>"; };
+		4C7D1AFEEE426F71A60F574E0FF90E3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5EE05F9D1BDA5E9412EF5B6D1F1A60C7 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Untility/Classes/MBProgressHUD.h; sourceTree = "<group>"; };
+		631DEDA39D7A517E70ABC3893160D614 /* MZTimerLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZTimerLabel.h; path = Untility/Classes/MZTimerLabel.h; sourceTree = "<group>"; };
+		6D1571017F7552172059B1D16DA92F66 /* TRPreferences.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRPreferences.m; path = Untility/Classes/TRPreferences.m; sourceTree = "<group>"; };
+		71D5D589F2602FE98AF0B311B8359D71 /* TRPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRPreferences.h; path = Untility/Classes/TRPreferences.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		773825413937DB69D4F46C20AF0374AA /* Pods-Untility_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Untility_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7D737E7704442F75CD20880462DF417F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8000D44EB4CF02A4659D187A05F5BD5F /* Pods-Untility_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Untility_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80D66791CB58182D67D38505812E88F0 /* Pods-Untility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Untility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		877DC7F2AEC35BF9D7DB61679E2FA592 /* Pods-Untility_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Untility_Example-umbrella.h"; sourceTree = "<group>"; };
+		8A1D7CEEABD07102B56DE2832291E225 /* UIButton+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Block.h"; path = "Untility/Classes/UIButton+Block.h"; sourceTree = "<group>"; };
+		8BBBFE99424FD390D485FC36C8EBD8A3 /* Pods_Untility_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Untility_Tests.framework; path = "Pods-Untility_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A80E17C2E71A79EC22A1E6D83EFE2D /* Untility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Untility-umbrella.h"; sourceTree = "<group>"; };
+		91C1AAAA70C16D937B662B5C8E493EF3 /* Pods-Untility_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Untility_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		936B577624CF193468002CBA8AEBB938 /* Untility.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Untility.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		984439D729964AAC4DC68D0CA0CACF3A /* Pods-Untility_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Untility_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEB294A25FF0189CDEEB26CC07C2FC9 /* Untility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Untility.framework; path = Untility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A115E8F8C6AD253B390335419763BA3A /* Pods-Untility_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Untility_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A16CF861CBD837DD97C3EA2D70B541B4 /* UIButton+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "Untility/Classes/UIButton+Block.m"; sourceTree = "<group>"; };
+		A23B8F8E523C79D77FA0A9582C92106D /* UIColor+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extensions.h"; path = "Untility/Classes/UIColor+Extensions.h"; sourceTree = "<group>"; };
+		ADFF9C8AB6304F9EE3970762984BD532 /* ABToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABToast.m; path = Untility/Classes/ABToast.m; sourceTree = "<group>"; };
+		AE80E7968F9ED59D0263E7F12C12FFB4 /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Untility/Classes/Macros.h; sourceTree = "<group>"; };
+		AF063CFFA0AFD39661497BBDA098EA1A /* UINavigationController+Revolve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Revolve.h"; path = "Untility/Classes/UINavigationController+Revolve.h"; sourceTree = "<group>"; };
+		B0E67343A8BE4ECE145DBD2D4B45E4F5 /* UISegmentedControl+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Block.m"; path = "Untility/Classes/UISegmentedControl+Block.m"; sourceTree = "<group>"; };
+		B3E091F9C01807AFD14D4D9094D09EB7 /* MZTimerLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZTimerLabel.m; path = Untility/Classes/MZTimerLabel.m; sourceTree = "<group>"; };
+		B6763B807C86B3700D06D8A54E6E752D /* UISegmentedControl+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+Block.h"; path = "Untility/Classes/UISegmentedControl+Block.h"; sourceTree = "<group>"; };
+		B79D09B48538D303133DE69B1B1880A7 /* Untility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Untility-Info.plist"; sourceTree = "<group>"; };
+		BA19AE365F3A8058E4630A3717F3A0E8 /* UISwitch+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwitch+Block.h"; path = "Untility/Classes/UISwitch+Block.h"; sourceTree = "<group>"; };
+		BB626A2915FD240C02BB54EE8DD8A35C /* UINavigationController+Revolve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Revolve.m"; path = "Untility/Classes/UINavigationController+Revolve.m"; sourceTree = "<group>"; };
+		BCB0300FB73D2D3B5FF5778BEFA829DC /* UIDevice+LZCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+LZCategory.m"; path = "Untility/Classes/UIDevice+LZCategory.m"; sourceTree = "<group>"; };
+		C7D9F095B5B9B5E98BDDA22E2E6F7EDE /* Pods-Untility_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Untility_Example-Info.plist"; sourceTree = "<group>"; };
+		C9219AE111B032724D60819388AE3D9D /* Pods-Untility_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Untility_Example-dummy.m"; sourceTree = "<group>"; };
+		CA3E97B44F91CA1267A3146BEF813E17 /* Pods-Untility_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Untility_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE0902E650BF6C47E43BDE9B39FC25D3 /* Pods-Untility_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Untility_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D09455E52A844761BD51C66BFAA4242D /* UISwitch+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+Block.m"; path = "Untility/Classes/UISwitch+Block.m"; sourceTree = "<group>"; };
+		D0FC66CD603D936FFC3B01C7E1366216 /* Pods-Untility_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Untility_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6BCDC50682DC4203C1B1C43CA473745 /* Untility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Untility.debug.xcconfig; sourceTree = "<group>"; };
+		D6BE21C7CD7AF89079B51B57E34DB2D1 /* Untility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Untility.release.xcconfig; sourceTree = "<group>"; };
+		D844357CC060C45AADC51000ED39A931 /* Untility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Untility-prefix.pch"; sourceTree = "<group>"; };
+		E351935E074305B5FAEDF625AAA01805 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Untility/Classes/MBProgressHUD.m; sourceTree = "<group>"; };
+		E502CC38DA2B0387683E9783CDDF3363 /* UIDevice+LZCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+LZCategory.h"; path = "Untility/Classes/UIDevice+LZCategory.h"; sourceTree = "<group>"; };
+		EBB2A4EE63759151BD58E1C9C981BCF1 /* Pods_Untility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Untility_Example.framework; path = "Pods-Untility_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE25B4AFD981C7B9786F216C567EBEF /* Pods-Untility_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Untility_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F89F75AD6E9130A161E8A0C72691194F /* Pods-Untility_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Untility_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B35DF84F823C1A48F5A38E7623C88AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B798E8A47AA410FD9FF4C0B5673855 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2760E2CA75D54ACA1F2A9A0FBFE308B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651A994B51D0DADC1D968A43DE916650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE9389CBC2B9183FBCD57945877B9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98A20C631E83F03DCE6CCDF5AFF42DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FBFBAC2611E4C100F6D69B8F6330339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB2A4EE63759151BD58E1C9C981BCF1 /* Pods_Untility_Example.framework */,
+				8BBBFE99424FD390D485FC36C8EBD8A3 /* Pods_Untility_Tests.framework */,
+				9DEB294A25FF0189CDEEB26CC07C2FC9 /* Untility.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EAA9079231CD5297E0DBFB28CC6B84 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4C7D1AFEEE426F71A60F574E0FF90E3B /* LICENSE */,
+				7D737E7704442F75CD20880462DF417F /* README.md */,
+				936B577624CF193468002CBA8AEBB938 /* Untility.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D9BBA58E2F61E8F029BD5ED1D922C0E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BDC8012D1F6FFE90D3DFD42BB0713DC /* Untility */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2FADE267589E4511276B96ACC15E97CA /* Pods-Untility_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F89F75AD6E9130A161E8A0C72691194F /* Pods-Untility_Tests.modulemap */,
+				CA3E97B44F91CA1267A3146BEF813E17 /* Pods-Untility_Tests-acknowledgements.markdown */,
+				91C1AAAA70C16D937B662B5C8E493EF3 /* Pods-Untility_Tests-acknowledgements.plist */,
+				0820496372E69CFF1A905A59B63FB0FA /* Pods-Untility_Tests-dummy.m */,
+				1F8B27C20AC9CDD4D88A75717EF77C84 /* Pods-Untility_Tests-Info.plist */,
+				EEE25B4AFD981C7B9786F216C567EBEF /* Pods-Untility_Tests-umbrella.h */,
+				80D66791CB58182D67D38505812E88F0 /* Pods-Untility_Tests.debug.xcconfig */,
+				001D70CC5871FD13961E506D5FC04965 /* Pods-Untility_Tests.release.xcconfig */,
+			);
+			name = "Pods-Untility_Tests";
+			path = "Target Support Files/Pods-Untility_Tests";
+			sourceTree = "<group>";
+		};
+		3FBE9F2E8C664E371A3AA9AF21F19CA2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD204D5437350E8EDA4B2CD204C3E500 /* Pods-Untility_Example */,
+				2FADE267589E4511276B96ACC15E97CA /* Pods-Untility_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BDC8012D1F6FFE90D3DFD42BB0713DC /* Untility */ = {
+			isa = PBXGroup;
+			children = (
+				0C0F891BF4762ECDD7738B9BE81F34DE /* ABToast.h */,
+				ADFF9C8AB6304F9EE3970762984BD532 /* ABToast.m */,
+				AE80E7968F9ED59D0263E7F12C12FFB4 /* Macros.h */,
+				5EE05F9D1BDA5E9412EF5B6D1F1A60C7 /* MBProgressHUD.h */,
+				E351935E074305B5FAEDF625AAA01805 /* MBProgressHUD.m */,
+				631DEDA39D7A517E70ABC3893160D614 /* MZTimerLabel.h */,
+				B3E091F9C01807AFD14D4D9094D09EB7 /* MZTimerLabel.m */,
+				71D5D589F2602FE98AF0B311B8359D71 /* TRPreferences.h */,
+				6D1571017F7552172059B1D16DA92F66 /* TRPreferences.m */,
+				8A1D7CEEABD07102B56DE2832291E225 /* UIButton+Block.h */,
+				A16CF861CBD837DD97C3EA2D70B541B4 /* UIButton+Block.m */,
+				A23B8F8E523C79D77FA0A9582C92106D /* UIColor+Extensions.h */,
+				1ACF2E43CA2261FFFA5F06F8BB7B5E76 /* UIColor+Extensions.m */,
+				E502CC38DA2B0387683E9783CDDF3363 /* UIDevice+LZCategory.h */,
+				BCB0300FB73D2D3B5FF5778BEFA829DC /* UIDevice+LZCategory.m */,
+				191EEFAEABC6E5807D790F100591A5E3 /* UIImage+KTCategory.h */,
+				499028AF8D9763F81288D832DC68268A /* UIImage+KTCategory.m */,
+				AF063CFFA0AFD39661497BBDA098EA1A /* UINavigationController+Revolve.h */,
+				BB626A2915FD240C02BB54EE8DD8A35C /* UINavigationController+Revolve.m */,
+				B6763B807C86B3700D06D8A54E6E752D /* UISegmentedControl+Block.h */,
+				B0E67343A8BE4ECE145DBD2D4B45E4F5 /* UISegmentedControl+Block.m */,
+				BA19AE365F3A8058E4630A3717F3A0E8 /* UISwitch+Block.h */,
+				D09455E52A844761BD51C66BFAA4242D /* UISwitch+Block.m */,
+				18EAA9079231CD5297E0DBFB28CC6B84 /* Pod */,
+				FF37BAAA899F8073B4F5C5444B52F29B /* Support Files */,
+			);
+			name = Untility;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AD204D5437350E8EDA4B2CD204C3E500 /* Pods-Untility_Example */ = {
+			isa = PBXGroup;
+			children = (
+				984439D729964AAC4DC68D0CA0CACF3A /* Pods-Untility_Example.modulemap */,
+				8000D44EB4CF02A4659D187A05F5BD5F /* Pods-Untility_Example-acknowledgements.markdown */,
+				D0FC66CD603D936FFC3B01C7E1366216 /* Pods-Untility_Example-acknowledgements.plist */,
+				C9219AE111B032724D60819388AE3D9D /* Pods-Untility_Example-dummy.m */,
+				773825413937DB69D4F46C20AF0374AA /* Pods-Untility_Example-frameworks.sh */,
+				C7D9F095B5B9B5E98BDDA22E2E6F7EDE /* Pods-Untility_Example-Info.plist */,
+				877DC7F2AEC35BF9D7DB61679E2FA592 /* Pods-Untility_Example-umbrella.h */,
+				CE0902E650BF6C47E43BDE9B39FC25D3 /* Pods-Untility_Example.debug.xcconfig */,
+				A115E8F8C6AD253B390335419763BA3A /* Pods-Untility_Example.release.xcconfig */,
+			);
+			name = "Pods-Untility_Example";
+			path = "Target Support Files/Pods-Untility_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1D9BBA58E2F61E8F029BD5ED1D922C0E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0FBFBAC2611E4C100F6D69B8F6330339 /* Products */,
+				3FBE9F2E8C664E371A3AA9AF21F19CA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF37BAAA899F8073B4F5C5444B52F29B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				434163FBADCFA94D0D5D02F24446F34E /* Untility.modulemap */,
+				0B7AA30531C5F8B2EDBBB9E898D29010 /* Untility-dummy.m */,
+				B79D09B48538D303133DE69B1B1880A7 /* Untility-Info.plist */,
+				D844357CC060C45AADC51000ED39A931 /* Untility-prefix.pch */,
+				90A80E17C2E71A79EC22A1E6D83EFE2D /* Untility-umbrella.h */,
+				D6BCDC50682DC4203C1B1C43CA473745 /* Untility.debug.xcconfig */,
+				D6BE21C7CD7AF89079B51B57E34DB2D1 /* Untility.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Untility";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0882E219CF8D36F7246E06F09C1AD1C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1964FC41428E7667D0E327F7EFB1BF30 /* Pods-Untility_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C58273BA07F553C411782C5BE63A36E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D866C541031777BAB285ED702D19D0 /* Pods-Untility_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EAFF806C2D27A809A639AB9357F33D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712DCC2CA0DB7B997265273D921732F1 /* ABToast.h in Headers */,
+				BADDCC29127E80B157813AA798CC87A0 /* Macros.h in Headers */,
+				AEC875D5069820217C6FB2DCFC861C09 /* MBProgressHUD.h in Headers */,
+				6540A1F2B1C17FB3B7CC70A8AD4D09DF /* MZTimerLabel.h in Headers */,
+				1C5E8E129193B58F4E2BA755AECA727C /* TRPreferences.h in Headers */,
+				80E9E9E9EC85EAD4B7C092DA5E58EAD9 /* UIButton+Block.h in Headers */,
+				75CCB78439F9A16B00014C1B44A558EA /* UIColor+Extensions.h in Headers */,
+				5992D45E3F99DFA17D41C60CDBAA6FD9 /* UIDevice+LZCategory.h in Headers */,
+				F84C4CB9FDA9122B8A30044534967847 /* UIImage+KTCategory.h in Headers */,
+				932072B44430259406F4DB7C52F7DB9E /* UINavigationController+Revolve.h in Headers */,
+				B698DC45921A28E9D35AC930312B947C /* UISegmentedControl+Block.h in Headers */,
+				2568D016F0E270A9EDE2EE9FDE249FB0 /* UISwitch+Block.h in Headers */,
+				24E92E00363456760F1282475E8DC9BE /* Untility-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27F4027D2E3CA21CA3638C94F91F6F21 /* Pods-Untility_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B72E86B662A2A0862D4BE041DEE4A98 /* Build configuration list for PBXNativeTarget "Pods-Untility_Example" */;
+			buildPhases = (
+				1C58273BA07F553C411782C5BE63A36E /* Headers */,
+				EBA696C00BA0BE5E43947C01BBB49D43 /* Sources */,
+				0B35DF84F823C1A48F5A38E7623C88AA /* Frameworks */,
+				F85B988F78D0CFB5F87A955F121B4CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3BBCB5AE9433A354C11A80353415DD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Untility_Example";
+			productName = "Pods-Untility_Example";
+			productReference = EBB2A4EE63759151BD58E1C9C981BCF1 /* Pods_Untility_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58C0458574A465D633FD0F7534E8FF94 /* Pods-Untility_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6D6C034C5D67DACD69FF850E4D0A4F /* Build configuration list for PBXNativeTarget "Pods-Untility_Tests" */;
+			buildPhases = (
+				0882E219CF8D36F7246E06F09C1AD1C2 /* Headers */,
+				890F0ED9B3F32F3D29E71591D5476AE8 /* Sources */,
+				2760E2CA75D54ACA1F2A9A0FBFE308B3 /* Frameworks */,
+				A6A40C67D9C24CFF6D8E7365BE8E8772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277D63D8176163DFE3B3E39916433D98 /* PBXTargetDependency */,
+			);
+			name = "Pods-Untility_Tests";
+			productName = "Pods-Untility_Tests";
+			productReference = 8BBBFE99424FD390D485FC36C8EBD8A3 /* Pods_Untility_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67F07D03508B33A6DDE6DD7D79F4EFFD /* Untility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1D5E6EB1BB3BD3956E59D16C418FDF /* Build configuration list for PBXNativeTarget "Untility" */;
+			buildPhases = (
+				44EAFF806C2D27A809A639AB9357F33D /* Headers */,
+				8FE6F365D72F5F010C5DA09D1CBD4F57 /* Sources */,
+				8EE9389CBC2B9183FBCD57945877B9C6 /* Frameworks */,
+				C11F68672AC974A356EFC587109B6137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Untility;
+			productName = Untility;
+			productReference = 9DEB294A25FF0189CDEEB26CC07C2FC9 /* Untility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0FBFBAC2611E4C100F6D69B8F6330339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F4027D2E3CA21CA3638C94F91F6F21 /* Pods-Untility_Example */,
+				58C0458574A465D633FD0F7534E8FF94 /* Pods-Untility_Tests */,
+				67F07D03508B33A6DDE6DD7D79F4EFFD /* Untility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A40C67D9C24CFF6D8E7365BE8E8772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11F68672AC974A356EFC587109B6137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85B988F78D0CFB5F87A955F121B4CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890F0ED9B3F32F3D29E71591D5476AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1A504B3EE38C03E3CEA2B16EEA0EAA /* Pods-Untility_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE6F365D72F5F010C5DA09D1CBD4F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DA7B60AAFC4307283A050866B79560 /* ABToast.m in Sources */,
+				1BE70CE90B2AD3CC1ECD7FEF7726D269 /* MBProgressHUD.m in Sources */,
+				C8227D5DD82711C4F424EDBB2A0A5297 /* MZTimerLabel.m in Sources */,
+				AF385188C8ED347A3B0331DBDEEE3809 /* TRPreferences.m in Sources */,
+				9D3F8E7683173A97C4B035B7ACE42A2A /* UIButton+Block.m in Sources */,
+				0205F29D304BD267260AA88F83CA017E /* UIColor+Extensions.m in Sources */,
+				64D7CC11821952DC1D265000716F58E1 /* UIDevice+LZCategory.m in Sources */,
+				6AAD865ADEB44E246297AB081100F4B8 /* UIImage+KTCategory.m in Sources */,
+				A10A33A6986DD8FCEE569BEB644DAFBB /* UINavigationController+Revolve.m in Sources */,
+				6FBA8694BE1F720DDF3012D032A640D1 /* UISegmentedControl+Block.m in Sources */,
+				D227041C3B2F84BC1E07C3CB2DC4D7D8 /* UISwitch+Block.m in Sources */,
+				3384A3ACA9200A26F273A74BD0CE9679 /* Untility-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA696C00BA0BE5E43947C01BBB49D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA87C88C00133CBC439ED63F9D00BFB0 /* Pods-Untility_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		277D63D8176163DFE3B3E39916433D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Untility_Example";
+			target = 27F4027D2E3CA21CA3638C94F91F6F21 /* Pods-Untility_Example */;
+			targetProxy = 3A61F8A30D5572EBF0AE39189E01C98C /* PBXContainerItemProxy */;
+		};
+		B3BBCB5AE9433A354C11A80353415DD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Untility;
+			target = 67F07D03508B33A6DDE6DD7D79F4EFFD /* Untility */;
+			targetProxy = B9D9CAB94EBA65A799409591A4A21F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1866D3D7F9F71F4E7BD9CE641CAA4D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BE21C7CD7AF89079B51B57E34DB2D1 /* Untility.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Untility/Untility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Untility/Untility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Untility/Untility.modulemap";
+				PRODUCT_MODULE_NAME = Untility;
+				PRODUCT_NAME = Untility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2275F8F98271D247AB02360099A8B6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D66791CB58182D67D38505812E88F0 /* Pods-Untility_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Untility_Tests/Pods-Untility_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Untility_Tests/Pods-Untility_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67EF66249E3726B926918B5F554B94AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001D70CC5871FD13961E506D5FC04965 /* Pods-Untility_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Untility_Tests/Pods-Untility_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Untility_Tests/Pods-Untility_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68D58692A044DDB83760B956008DAABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BCDC50682DC4203C1B1C43CA473745 /* Untility.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Untility/Untility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Untility/Untility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Untility/Untility.modulemap";
+				PRODUCT_MODULE_NAME = Untility;
+				PRODUCT_NAME = Untility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D33A2DD883F224F9E4C2A240CBE303B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0902E650BF6C47E43BDE9B39FC25D3 /* Pods-Untility_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Untility_Example/Pods-Untility_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Untility_Example/Pods-Untility_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF0D3EA37BAC403A60A5BE7673B1F82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A115E8F8C6AD253B390335419763BA3A /* Pods-Untility_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Untility_Example/Pods-Untility_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Untility_Example/Pods-Untility_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B72E86B662A2A0862D4BE041DEE4A98 /* Build configuration list for PBXNativeTarget "Pods-Untility_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33A2DD883F224F9E4C2A240CBE303B9 /* Debug */,
+				DF0D3EA37BAC403A60A5BE7673B1F82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6D6C034C5D67DACD69FF850E4D0A4F /* Build configuration list for PBXNativeTarget "Pods-Untility_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2275F8F98271D247AB02360099A8B6C0 /* Debug */,
+				67EF66249E3726B926918B5F554B94AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1D5E6EB1BB3BD3956E59D16C418FDF /* Build configuration list for PBXNativeTarget "Untility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D58692A044DDB83760B956008DAABB /* Debug */,
+				1866D3D7F9F71F4E7BD9CE641CAA4D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

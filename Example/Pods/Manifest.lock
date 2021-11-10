@@ -1,0 +1,16 @@
+PODS:
+  - Untility (0.1.0)
+
+DEPENDENCIES:
+  - Untility (from `../`)
+
+EXTERNAL SOURCES:
+  Untility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Untility: b1299e01cd967a5b788cce6390a7f4a65497906b
+
+PODFILE CHECKSUM: cdb54f357d1c104635dffbd1216a1e1c98221423
+
+COCOAPODS: 1.10.1
